@@ -1,4 +1,4 @@
-import { AudioLines, Calendar, Hash, Home, Inbox, Search, Settings } from "lucide-react"
+import { AudioLines, Calendar, Hash, Settings } from "lucide-react"
 
 import {
   Sidebar,
