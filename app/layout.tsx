@@ -27,12 +27,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        <nav className=" py-5 flex justify-center text-3xl bg-violet-900 text-white">Agent Name</nav>
         <div className="flex h-full">
             <SidebarProvider>
               <div className="grid grid-cols-[auto,1fr] w-full">
