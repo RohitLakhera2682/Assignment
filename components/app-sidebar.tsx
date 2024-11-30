@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/sidebar"
 import { ListAgents } from "@/lib/actions/agents"
 
-let voices= await ListAgents();
+const voices= await ListAgents();
 
 
 // This is sample data.
