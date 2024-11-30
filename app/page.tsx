@@ -1,7 +1,6 @@
 "use client";
 
 import TextareaWithText from "@/components/text-aa";
-import { useParams } from "next/navigation";
 
 export default function Home() {
   return (
